@@ -1,0 +1,11 @@
+read -p 'username:' user
+read -sp 'password:' pass
+
+if (($user == sercan && $pass == irem))
+then 
+        echo "welcome with successfull login"
+else
+        echo "goodbye wıth unsuccessful login"
+fi
+
+log
